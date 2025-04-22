@@ -1,0 +1,203 @@
+Testing Greyhound polynomial commitment scheme
+
+Polynomial commitment context:
+  Polynomial lengths: 8192
+  Lengths decomposition: 279 x 30
+  Streaming polynomial: NO
+  Commitment ranks: kappa = 18; kappa1 = 6
+  Decomposition bases: b = 2048; bu = 256
+  Expansion factors: f = 3; fu = 4
+  Predicted witness norm: 40472.30
+
+Polynomial commitment evaluation proof:
+  Polynomial lengths: 8192
+  Lengths decomposition: 279 x 30
+  Evaluation point: 43
+  Commitment ranks: kappa = 18; kappa1 = 6
+  Decomposition bases: b = 2048; bu = 256
+  Expansion factors: f = 3; fu = 4
+  Witness norm: 38993.49
+  Proof size: 3.00 KB
+
+Chihuahua statement 0574154F9F:
+  Witness multiplicity: 4
+  Witness ranks: 837, 837, 2160, 120
+  Number of dot-product constraints: 5
+  Norm constraint: 38993.49
+
+Witness:
+  Witness parts: 4
+  Witness part lengths: 837, 837, 2160, 120
+  Witness part norms: 17063.00, 19974.28, 27511.00, 8574.33
+  Witness size: 256.93 KB
+
+Testing Greyhound Pack for degree 2^19
+
+Greyhound Pack commit time: 0.0273s
+
+Polynomial commitment context:
+  Polynomial lengths: 8192
+  Lengths decomposition: 279 x 30
+  Streaming polynomial: NO
+  Commitment ranks: kappa = 18; kappa1 = 6
+  Decomposition bases: b = 2048; bu = 256
+  Expansion factors: f = 3; fu = 4
+  Predicted witness norm: 40472.30
+
+Polynomial commitment evaluation proof:
+  Polynomial lengths: 8192
+  Lengths decomposition: 279 x 30
+  Evaluation point: 43
+  Commitment ranks: kappa = 18; kappa1 = 6
+  Decomposition bases: b = 2048; bu = 256
+  Expansion factors: f = 3; fu = 4
+  Witness norm: 39019.69
+  Proof size: 3.00 KB
+
+Chihuahua statement B052805300:
+  Witness multiplicity: 4
+  Witness ranks: 837, 837, 2160, 120
+  Number of dot-product constraints: 5
+  Norm constraint: 39019.69
+
+Witness:
+  Witness parts: 4
+  Witness part lengths: 837, 837, 2160, 120
+  Witness part norms: 17168.78, 20068.55, 27429.28, 8523.91
+  Witness size: 256.95 KB
+
+Predicted witness norm: 7087.16
+
+Proof:
+  Witness multiplicity: 4
+  Witness ranks: 837, 837, 2160, 120
+  Witness decomposition: 0, 0, 0, 6
+  Johnson-Lindenstrauss projection matrix nonce: 3
+  Projection norm: 578637.09
+  Commitment ranks: kappa = 14; kappa1 = 5
+  Decomposition bases: b = 64; bu = 32; bg = 64
+  Expansion factors: f = 2; fu = 6; fg = 0
+  Proof size: 4.04 KB
+
+Labrador statement 97C7AD98DB:
+  Total amortized multiplicity: 6
+  Rank of amortized opening: 659
+  Rank of outer commitment openings (inner coms, garbage): 630
+  Number of non-zero coefficients in matrix a for quadratic constraint term: 0
+  Norm constraint: 7050.73
+
+Witness:
+  Witness parts: 3
+  Witness part lengths: 659, 659, 630
+  Witness part norms: 3797.94, 4833.38, 3453.52
+  Witness size: 96.53 KB
+
+Predicted witness norm: 2746.04
+
+Proof:
+  Witness multiplicity: 3
+  Witness ranks: 659, 659, 630
+  Witness decomposition: 0, 0, 4
+  Johnson-Lindenstrauss projection matrix nonce: 3
+  Projection norm: 112332.83
+  Commitment ranks: kappa = 11; kappa1 = 4
+  Decomposition bases: b = 32; bu = 32; bg = 32
+  Expansion factors: f = 2; fu = 7; fg = 0
+  Proof size: 3.46 KB
+
+Labrador statement 9523A33561:
+  Total amortized multiplicity: 4
+  Rank of amortized opening: 487
+  Rank of outer commitment openings (inner coms, garbage): 378
+  Number of non-zero coefficients in matrix a for quadratic constraint term: 0
+  Norm constraint: 2760.03
+
+Witness:
+  Witness parts: 3
+  Witness part lengths: 487, 487, 378
+  Witness part norms: 1630.29, 1784.01, 1333.12
+  Witness size: 55.70 KB
+
+Predicted witness norm: 24050.23
+
+Proof:
+  Witness multiplicity: 3
+  Witness ranks: 487, 487, 378
+  Witness decomposition: 0, 0, 5
+  Johnson-Lindenstrauss projection matrix nonce: 1
+  Projection norm: 42562.09
+  Commitment ranks: kappa = 10; kappa1 = 6
+  Decomposition bases: b = 512; bu = 256; bg = 512
+  Expansion factors: f = 1; fu = 4; fg = 0
+  Proof size: 4.42 KB
+
+Labrador statement 00FBC74ED7:
+  Total amortized multiplicity: 5
+  Rank of amortized opening: 271
+  Rank of outer commitment openings (inner coms, garbage): 260
+  Number of non-zero coefficients in matrix a for quadratic constraint term: 0
+  Norm constraint: 24269.41
+
+Witness:
+  Witness parts: 2
+  Witness part lengths: 271, 260
+  Witness part norms: 22327.92, 9511.47
+  Witness size: 36.79 KB
+
+Predicted witness norm: 4282.52
+
+Proof:
+  Witness multiplicity: 2
+  Witness ranks: 271, 260
+  Witness decomposition: 0, 2
+  Johnson-Lindenstrauss projection matrix nonce: 5
+  Projection norm: 369208.45
+  Commitment ranks: kappa = 13; kappa1 = 4
+  Decomposition bases: b = 64; bu = 32; bg = 64
+  Expansion factors: f = 2; fu = 6; fg = 0
+  Proof size: 3.52 KB
+
+Labrador statement 51887F5B88:
+  Total amortized multiplicity: 2
+  Rank of amortized opening: 266
+  Rank of outer commitment openings (inner coms, garbage): 174
+  Number of non-zero coefficients in matrix a for quadratic constraint term: 0
+  Norm constraint: 4319.10
+
+Witness:
+  Witness parts: 3
+  Witness part lengths: 266, 266, 174
+  Witness part norms: 2412.30, 3078.05, 1833.31
+  Witness size: 35.13 KB
+
+Predicted witness norm: 3479.74
+
+Proof:
+  Witness multiplicity: 2
+  Witness ranks: 271, 260
+  Witness decomposition: 0, 4
+  Johnson-Lindenstrauss projection matrix nonce: 1
+  Projection norm: 367920.26
+  Commitment ranks: kappa = 13; kappa1 = 0
+  Decomposition bases: b = 64; bu = 4294967296; bg = 64
+  Expansion factors: f = 2; fu = 1; fg = 0
+  Proof size: 16.27 KB
+
+Labrador statement (tail) 2FAF069A9B:
+  Total amortized multiplicity: 4
+  Rank of amortized opening: 133
+  Rank of outer commitment openings (inner coms, garbage): 62
+  Number of non-zero coefficients in matrix a for quadratic constraint term: 0
+  Norm constraint: 3537.38
+
+Witness:
+  Witness parts: 2
+  Witness part lengths: 133, 133
+  Witness part norms: 1709.22, 3097.04
+  Witness size: 13.90 KB
+
+Commitment key length: 2176
+Greyhound Pack members: 4
+Greyhound Pack size: 45.09 KB
+Greyhound Pack proving time: 0.0600s
+Greyhound Pack verification time: 0.0276s

@@ -1,0 +1,281 @@
+Testing Greyhound polynomial commitment scheme
+
+Polynomial commitment context:
+  Polynomial lengths: 65536
+  Lengths decomposition: 768 x 86
+  Streaming polynomial: NO
+  Commitment ranks: kappa = 17; kappa1 = 6
+  Decomposition bases: b = 256; bu = 128
+  Expansion factors: f = 4; fu = 5
+  Predicted witness norm: 34239.22
+
+Polynomial commitment evaluation proof:
+  Polynomial lengths: 65536
+  Lengths decomposition: 768 x 86
+  Evaluation point: 43
+  Commitment ranks: kappa = 17; kappa1 = 6
+  Decomposition bases: b = 256; bu = 128
+  Expansion factors: f = 4; fu = 5
+  Witness norm: 34197.45
+  Proof size: 3.00 KB
+
+Chihuahua statement DD6ABF9052:
+  Witness multiplicity: 4
+  Witness ranks: 3072, 3072, 7310, 430
+  Number of dot-product constraints: 5
+  Norm constraint: 34197.45
+
+Witness:
+  Witness parts: 4
+  Witness part lengths: 3072, 3072, 7310, 430
+  Witness part norms: 16379.53, 18918.98, 22645.91, 5514.68
+  Witness size: 782.63 KB
+
+Testing Greyhound Pack for degree 2^22
+
+Greyhound Pack commit time: 0.3000s
+
+Polynomial commitment context:
+  Polynomial lengths: 65536
+  Lengths decomposition: 768 x 86
+  Streaming polynomial: NO
+  Commitment ranks: kappa = 17; kappa1 = 6
+  Decomposition bases: b = 256; bu = 128
+  Expansion factors: f = 4; fu = 5
+  Predicted witness norm: 34239.22
+
+Polynomial commitment evaluation proof:
+  Polynomial lengths: 65536
+  Lengths decomposition: 768 x 86
+  Evaluation point: 43
+  Commitment ranks: kappa = 17; kappa1 = 6
+  Decomposition bases: b = 256; bu = 128
+  Expansion factors: f = 4; fu = 5
+  Witness norm: 34214.25
+  Proof size: 3.00 KB
+
+Chihuahua statement 02BA5B81A2:
+  Witness multiplicity: 4
+  Witness ranks: 3072, 3072, 7310, 430
+  Number of dot-product constraints: 5
+  Norm constraint: 34214.25
+
+Witness:
+  Witness parts: 4
+  Witness part lengths: 3072, 3072, 7310, 430
+  Witness part norms: 16392.54, 18929.33, 22647.42, 5538.45
+  Witness size: 782.70 KB
+
+Predicted witness norm: 8432.84
+
+Proof:
+  Witness multiplicity: 4
+  Witness ranks: 3072, 3072, 7310, 430
+  Witness decomposition: 0, 0, 0, 11
+  Johnson-Lindenstrauss projection matrix nonce: 1
+  Projection norm: 516306.22
+  Commitment ranks: kappa = 14; kappa1 = 5
+  Decomposition bases: b = 64; bu = 32; bg = 64
+  Expansion factors: f = 2; fu = 6; fg = 0
+  Proof size: 4.03 KB
+
+Labrador statement C7A9A31716:
+  Total amortized multiplicity: 11
+  Rank of amortized opening: 1263
+  Rank of outer commitment openings (inner coms, garbage): 1320
+  Number of non-zero coefficients in matrix a for quadratic constraint term: 0
+  Norm constraint: 8422.37
+
+Witness:
+  Witness parts: 3
+  Witness part lengths: 1263, 1263, 1320
+  Witness part norms: 5254.81, 4270.86, 5008.30
+  Witness size: 184.04 KB
+
+Predicted witness norm: 3315.05
+
+Proof:
+  Witness multiplicity: 3
+  Witness ranks: 1263, 1263, 1320
+  Witness decomposition: 0, 0, 6
+  Johnson-Lindenstrauss projection matrix nonce: 2
+  Projection norm: 128622.15
+  Commitment ranks: kappa = 12; kappa1 = 4
+  Decomposition bases: b = 32; bu = 32; bg = 32
+  Expansion factors: f = 2; fu = 7; fg = 0
+  Proof size: 3.47 KB
+
+Labrador statement 08268C90B6:
+  Total amortized multiplicity: 6
+  Rank of amortized opening: 641
+  Rank of outer commitment openings (inner coms, garbage): 651
+  Number of non-zero coefficients in matrix a for quadratic constraint term: 0
+  Norm constraint: 3320.83
+
+Witness:
+  Witness parts: 3
+  Witness part lengths: 641, 641, 651
+  Witness part norms: 1869.64, 2111.67, 1753.05
+  Witness size: 79.73 KB
+
+Predicted witness norm: 28618.71
+
+Proof:
+  Witness multiplicity: 3
+  Witness ranks: 641, 641, 651
+  Witness decomposition: 0, 0, 6
+  Johnson-Lindenstrauss projection matrix nonce: 2
+  Projection norm: 51771.92
+  Commitment ranks: kappa = 10; kappa1 = 6
+  Decomposition bases: b = 512; bu = 256; bg = 512
+  Expansion factors: f = 1; fu = 4; fg = 0
+  Proof size: 4.43 KB
+
+Labrador statement B8937B39A3:
+  Total amortized multiplicity: 6
+  Rank of amortized opening: 323
+  Rank of outer commitment openings (inner coms, garbage): 324
+  Number of non-zero coefficients in matrix a for quadratic constraint term: 0
+  Norm constraint: 28397.54
+
+Witness:
+  Witness parts: 2
+  Witness part lengths: 323, 324
+  Witness part norms: 26322.37, 10656.14
+  Witness size: 45.05 KB
+
+Predicted witness norm: 4796.27
+
+Proof:
+  Witness multiplicity: 2
+  Witness ranks: 323, 324
+  Witness decomposition: 0, 2
+  Johnson-Lindenstrauss projection matrix nonce: 1
+  Projection norm: 432045.53
+  Commitment ranks: kappa = 13; kappa1 = 4
+  Decomposition bases: b = 64; bu = 32; bg = 64
+  Expansion factors: f = 2; fu = 6; fg = 0
+  Proof size: 3.52 KB
+
+Labrador statement 2578D03912:
+  Total amortized multiplicity: 2
+  Rank of amortized opening: 324
+  Rank of outer commitment openings (inner coms, garbage): 174
+  Number of non-zero coefficients in matrix a for quadratic constraint term: 0
+  Norm constraint: 4820.13
+
+Witness:
+  Witness parts: 3
+  Witness part lengths: 324, 324, 174
+  Witness part norms: 2645.51, 3593.21, 1823.11
+  Witness size: 41.13 KB
+
+Predicted witness norm: 2056.64
+
+Proof:
+  Witness multiplicity: 3
+  Witness ranks: 324, 324, 174
+  Witness decomposition: 0, 0, 3
+  Johnson-Lindenstrauss projection matrix nonce: 2
+  Projection norm: 73290.84
+  Commitment ranks: kappa = 11; kappa1 = 4
+  Decomposition bases: b = 32; bu = 32; bg = 32
+  Expansion factors: f = 2; fu = 7; fg = 0
+  Proof size: 3.44 KB
+
+Labrador statement 0DDABA59B2:
+  Total amortized multiplicity: 3
+  Rank of amortized opening: 274
+  Rank of outer commitment openings (inner coms, garbage): 273
+  Number of non-zero coefficients in matrix a for quadratic constraint term: 0
+  Norm constraint: 2053.99
+
+Witness:
+  Witness parts: 3
+  Witness part lengths: 274, 274, 273
+  Witness part norms: 1228.38, 1198.94, 1128.04
+  Witness size: 33.43 KB
+
+Predicted witness norm: 18284.42
+
+Proof:
+  Witness multiplicity: 3
+  Witness ranks: 274, 274, 273
+  Witness decomposition: 0, 0, 4
+  Johnson-Lindenstrauss projection matrix nonce: 1
+  Projection norm: 32626.45
+  Commitment ranks: kappa = 9; kappa1 = 5
+  Decomposition bases: b = 512; bu = 256; bg = 512
+  Expansion factors: f = 1; fu = 4; fg = 0
+  Proof size: 3.91 KB
+
+Labrador statement BD83A71235:
+  Total amortized multiplicity: 4
+  Rank of amortized opening: 206
+  Rank of outer commitment openings (inner coms, garbage): 184
+  Number of non-zero coefficients in matrix a for quadratic constraint term: 0
+  Norm constraint: 17989.54
+
+Witness:
+  Witness parts: 2
+  Witness part lengths: 206, 184
+  Witness part norms: 16098.25, 8029.32
+  Witness size: 26.65 KB
+
+Predicted witness norm: 3555.61
+
+Proof:
+  Witness multiplicity: 2
+  Witness ranks: 206, 184
+  Witness decomposition: 0, 2
+  Johnson-Lindenstrauss projection matrix nonce: 1
+  Projection norm: 286608.57
+  Commitment ranks: kappa = 13; kappa1 = 4
+  Decomposition bases: b = 64; bu = 32; bg = 64
+  Expansion factors: f = 2; fu = 6; fg = 0
+  Proof size: 3.51 KB
+
+Labrador statement 2A603E3776:
+  Total amortized multiplicity: 2
+  Rank of amortized opening: 195
+  Rank of outer commitment openings (inner coms, garbage): 174
+  Number of non-zero coefficients in matrix a for quadratic constraint term: 0
+  Norm constraint: 3602.65
+
+Witness:
+  Witness parts: 3
+  Witness part lengths: 195, 195, 174
+  Witness part norms: 2055.86, 2299.29, 1861.66
+  Witness size: 27.71 KB
+
+Predicted witness norm: 143916.33
+
+Proof:
+  Witness multiplicity: 2
+  Witness ranks: 206, 184
+  Witness decomposition: 0, 3
+  Johnson-Lindenstrauss projection matrix nonce: 1
+  Projection norm: 271756.85
+  Commitment ranks: kappa = 12; kappa1 = 0
+  Decomposition bases: b = 4096; bu = 4294967296; bg = 4096
+  Expansion factors: f = 1; fu = 1; fg = 0
+  Proof size: 11.75 KB
+
+Labrador statement (tail) AF8B845035:
+  Total amortized multiplicity: 3
+  Rank of amortized opening: 130
+  Rank of outer commitment openings (inner coms, garbage): 42
+  Number of non-zero coefficients in matrix a for quadratic constraint term: 0
+  Norm constraint: 148180.71
+
+Witness:
+  Witness parts: 1
+  Witness part lengths: 130
+  Witness part norms: 148180.71
+  Witness size: 12.91 KB
+
+Commitment key length: 7584
+Greyhound Pack members: 7
+Greyhound Pack size: 50.47 KB
+Greyhound Pack proving time: 0.2378s
+Greyhound Pack verification time: 0.1069s

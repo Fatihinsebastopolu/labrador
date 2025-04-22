@@ -97,12 +97,9 @@ static int test_pack(size_t len) {
   return ret;
 }
 
-int main(void) {
+int main(int argc, char *argv[]) {
   int ret;
-  size_t len;
-
-  len = 1 << 19;
-
+  size_t len = 1 << atoi(argv[1]);
   ret = test_polcom(len);
   if(ret) goto end;
   ret = test_pack(len);
